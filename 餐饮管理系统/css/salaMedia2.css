@@ -1,0 +1,113 @@
+@media(max-width:1350px){
+    /* 小方块的尺寸修改 */
+    #menu , #sopa , #arroz , #tallarin , #pollo ,
+    #plato_especial, #chancho , 
+    #langostino , #carne, #combinado ,#tortilla,#combo,  
+    #criollo, #bebidas {
+        width: 220px;
+        height: 120px;
+      
+    }
+
+}
+
+@media(max-width:1200px){
+      /* 小方块的尺寸修改 */
+      #menu , #sopa , #arroz , #tallarin , #pollo ,
+      #plato_especial, #chancho , 
+      #langostino , #carne, #combinado ,#tortilla,#combo,  
+      #criollo, #bebidas {
+          width: 180px;
+          height: 90px;
+        
+      }
+
+      #lista_fondo{
+        width: 90%;
+    }
+    #lista_fondo{
+        height: 15%;
+    }
+}
+
+@media(max-width:1030px){
+
+
+    /* 头框******************************************************************************* */
+    #cabezon h1{
+        font-size: 23px;
+    }
+
+    #cabezon h3{
+        font-size: 16px;
+    }
+
+    #cabezon button{
+        font-size: 14px;
+    }
+
+
+
+
+
+
+    /* 区域1****************************************************************************** */
+
+    /* logo */
+    .xxx{
+        padding: 5px;
+    }
+
+    /* botones */
+    .inter-1 button{
+        font-size: 0px;
+    }
+
+    .inter-1 img{
+        width: 60%;
+        margin: auto;
+    }
+
+    /* 区域2*********************************************************************************** */
+
+    .part-2{
+        padding: 10px 10px 40px 10px;
+    }
+
+    /* 小方块的尺寸修改 */
+    #menu , #sopa , #arroz , #tallarin , #pollo ,
+    #plato_especial, #chancho , 
+    #langostino , #carne, #combinado ,#tortilla,#combo,  
+    #criollo, #bebidas {
+        width: 160px;
+        height: 90px;
+
+        /* 文字 */
+        font-size: 12px;
+      
+    }
+
+    /* 区块2-2 ********************************************************************************** */
+
+    .mesa h2{
+        font-size: 18px;
+    }
+
+    .mesa td{
+        font-size: 14px
+    }
+
+
+
+    /* 区块3************************************************************************************** */
+
+    .part-3{
+        padding: 20px 5px 20px 5px;
+    }
+
+    .ti h2{
+        font-size: 16px;
+    }
+
+  
+}

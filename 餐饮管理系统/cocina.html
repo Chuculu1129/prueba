@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sala</title>
+    <link rel="stylesheet" href="./css/sala2.css"/>
+    <link rel="stylesheet" href="./css/salaMedia2.css"/>
+    <link rel="stylesheet" href="./css/cocina.css"/>
+    
+</head>
+<body id="h" style="display: none;">
+
+    <!-- 头部设计 -->
+ 
+    <div id="cabezon">
+        
+        <h3>plataforma : cocina</h3>
+        <h1>Chifa Fung Seng</h1>
+        <button onclick="cerrar_sesion()">cerrar sesion</button>
+    </div>
+
+    <!-- 中部设计 -->
+    <div id="cuerpaso">
+
+        <div class="pedido">
+            <div class="pedido_num">
+                <h2>mesa 6</h2>
+            </div>
+            <!-- 单内容 -->
+            <div class="pedido_content">
+                <!-- 内容的每一条菜记录 -->
+                <div class="pedido_detalle">
+                    <label><input type="checkbox">1 - chaufa de pollo</label>
+                    <p>* poco cebolla</p>
+                </div>
+                <div class="pedido_detalle">
+                    <label><input type="checkbox">2 - chaufa de chancho</label>
+                    <p></p>
+                </div>
+            </div>
+            <!-- 结尾按钮 -->
+            <div class="pedido_boton">
+                <div class="conteo">
+                    <p>1</p>
+                    <p>:</p>
+                    <p>00</p>
+                </div>
+                <button>finalizar</button>
+            </div>
+        </div>
+        
+
+    </div>
+    <script src="./js/cocina.js"></script>
+
+
+</body>
+</html>

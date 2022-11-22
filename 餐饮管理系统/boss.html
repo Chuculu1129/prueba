@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caja</title>
+    <link rel="stylesheet" href="./css/sala2.css" />
+    <link rel="stylesheet" href="./css/salaMedia2.css" />
+    <link rel="stylesheet" href="./css/caja.css" />
+    <link rel="stylesheet" href="./css/boss.css" />
+    <link rel="stylesheet" href="./css/bossMedia.css"/>
+
+</head>
+
+<body>
+
+    <!-- 头部设计 -->
+
+    <div id="cabezon">
+
+        <h3 id="titulo">hello boss</h3>
+        <h1>Chifa Fung Seng</h1>
+        <button>cerrar sesion</button>
+    </div>
+
+    <!-- 中部设计 -->
+    <div id="cuerpaso">
+
+        <!-- 区块1 -->
+        <div class="part-1">
+            <div class="fondo1">
+
+                <div class="xxx">
+                    <img id="logo" src="./img/logo.jpg" />
+                </div>
+
+                <div class="inter-1">
+                    <button onclick="carta()"><img src="./img/iconoMenu.pnj.png" /> 餐谱</button>
+                    <button onclick="mesa()"> <img src="./img/iconoMesa.pnj.png" /> 桌号</button>
+                    <button onclick="historial_dia()"><img src="./img/iconoHistorial.png">当日记录</button>
+                    <!-- 全营业额、小功能页面：消息、改写密码、其他页面的登入时间、全面开销记录。 -->
+                    <button onclick="historial_total()"><img src="./img/iconoReloj.png" />全记录</button>
+                    <button onclick="funciones()"><img src="./img/iconoAjuste.png" />小功能</button> 
+                </div>
+            </div>
+        </div>
+
+    
+
+
+        <!--  区块2.0 ，欢迎页面 -->
+        <div id="bievenida">
+            <img src="./img/bievenida.jpg" />
+        </div>
+
+
+        <!-- 区块2.1  点餐的-->
+        <div class="part-2" id="part-2_1">
+
+            <div id="menu">
+                <div class="caja_name">
+                    <h2>Menu</h2>
+                </div>
+                <div class="img">
+                </div>
+            </div>
+
+            <div id="sopa">
+                <div class="caja_name">
+                    <h2>Sopa</h2>
+                </div>
+                <div class="img">
+                </div>
+            </div>
+
+            <div id="arroz">
+                <div class="caja_name">
+                    <h2>Arroz</h2>
+                </div>
+                <div class="img">
+                </div>
+            </div>
+
+            <div id="tallarin">
+                <div class="caja_name">
+                    <h2>Tallarin</h2>
+                </div>
+                <div class="img">
+                </div>
+            </div>
+
+            <div id="plato_especial">
+                <div class="caja_name">
+                    <h2>Plato especial</h2>
+                </div>
+                <div class="img">
+                </div>
+            </div>
+
+            <div id="pollo">
+                <div class="caja_name">
+                    <h2>Pollo</h2>
+                </div>
+                <div class="img">
+                </div>
+            </div>
+
+            <div id="chancho">
+                <div class="caja_name">
+                    <h2>Chancho</h2>
+                </div>
+                <div class="img">
+                </div>
+            </div>
+
+            <div id="langostino">
+                <div class="caja_name">
+                    <h2>Langostino</h2>
+                </div>
+                <div class="img">
+                </div>
+            </div>
+
+            <div id="carne">
+                <div class="caja_name">
+                    <h2>Carne de res</h2>
+                </div>
+                <div class="img">
+                </div>
+            </div>
+
+            <div id="combinado">
+                <div class="caja_name">
+                    <h2>Combinado</h2>
+                </div>
+                <div class="img">
+                </div>
+            </div>
+
+            <div id="tortilla">
+                <div class="caja_name">
+                    <h2>Tortilla</h2>
+                </div>
+                <div class="img">
+                </div>
+            </div>
+
+            <div id="combo">
+                <div class="caja_name">
+                    <h2>Combo familiar</h2>
+                </div>
+                <div class="img">
+                </div>
+            </div>
+
+            <div id="criollo">
+                <div class="caja_name">
+                    <h2>Criollo</h2>
+                </div>
+                <div class="img">
+                </div>
+            </div>
+
+            <div id="bebidas">
+                <div class="caja_name">
+                    <h2>Bebidas</h2>
+                </div>
+                <div class="img">
+                </div>
+            </div>
+        </div>
+
+        <!-- 区域2.2  显示每一桌信息额-->
+        <div id="part-2_2">
+            <!-- 桌子1 -->
+            <div class="mesa">
+                <!-- 桌号 -->
+                <div id="num_mesa">
+                    <h2>Mesa 1</h2>
+                </div>
+                <!-- 点的餐 -->
+                <div id="pedido_del_mesa">
+                    <table>
+                        <tr>
+                            <td>1. chaufa de pollo</td>
+                            <td>S/. 13.00</td>
+                        </tr>
+                        <tr>
+                            <td>1 tallarin</td>
+                            <td>S/. 11.00</td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- 看总价格 -->
+                <div class="botones">
+                    <button>ver total</button>
+                    <button>pagar</button>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- 区块2.3 显示当日营业额记录-->
+        <div id="part-2_3">
+
+            <!-- 记录表 -->
+            <div id="tabla">
+                <!-- 日期 -->
+                <div class="tabla_fecha">
+                    <h2>Fecha :</h2>
+                    <p>martes</p>
+                    <p>30/08/2022</p>
+                </div>
+                <!-- 表内容 -->
+                <div class="tabla_content">
+                    <table>
+                        <tr>
+                            <th>Hora</th>
+                            <th>Num pedido</th>
+                            <th>Monto pagado</th>
+                            <th>detalle</th>
+                        </tr>
+                        <tr>
+                            <td>9:20</td>
+                            <td>#000001</td>
+                            <td>S/. 12.00</td>
+                            <td><button>detalles</button></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- 区块2.4 全记录 -->
+        <div id="part-2_4">
+
+            <div id="registro_boton">
+                <!-- 每日收入记录与对比 -->
+                <div id="dia">
+                    <div class="dia_name">
+                        <h2>日营业记录</h2>
+                    </div>
+                    <div class="dia_img">
+                    </div>
+                </div>
+                <!-- 每月营业额记录与对比 -->
+
+                <div id="mes">
+                    <div class="mes_name">
+                        <h2>月营业记录</h2>
+                    </div>
+                    <div class="mes_img">
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- 表格 -->
+
+            <div id="historial">
+                <div class="historial_cabeza">
+
+                    <h3>日营业记录</h3>
+
+                    <div class="historial_boton">
+                        <button>收入记录</button>
+                        <button>收入对比</button>
+                    </div>
+
+                </div>
+
+                <div class="lineas">
+
+                    <!-- 第一行- 注释 -->
+                    <div class="linea">
+                        <!-- 日期 -->
+                        <div class="T-fecha">
+                            <h4>日期</h4>
+                        </div>
+                        <!-- 营业额 -->
+                        <div class="T-ganancia">
+                            <h4>当日营业额</h4>
+                        </div>
+                        <!-- 详细 -->
+                        <div class="T-detalles">
+                            <h4>详细</h4>
+                        </div>
+                    </div>
+
+                    <!-- 第一条记录 -->
+                    <div class="linea">
+                        <div class="fecha">
+                            <p>2022-11-29</p>
+                        </div>
+
+                        <div class="ganancia">
+                            <p>S/. 1000.00</p>
+                        </div>
+
+                        <div class="detalles">
+                            <button>详细记录</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+        <!-- 区块2.5 小功能 -->
+        <div id="part-2_5">
+
+            <!-- 小功能按钮 -->
+
+            <div id="funcion_boton">
+                <!-- 登入时间记录 -->
+                <div id="historial_ingreso_salida">
+                    <h2>登入记录</h2>
+                </div>
+                <!-- 修改页面密码 -->
+                <div id="claves_config">
+                    <h2>密码设置</h2>
+                </div>
+                <!-- 开销记录 -->
+                <div id="historial_gasto">
+                    <h2>开销记录</h2>
+                </div>
+                <!-- 每月利润加营业额对比 -->
+                <div id="ganancia_comparar">
+                    <h2>利润对比</h2>
+                </div>
+                <!-- 通知邮箱 -->
+                <div id="notificacion">
+                    <h2>通知邮箱</h2>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+
+    <!-- --------------------------------------------------------------------- -->
+    <!-- 区块3 -->
+    <div class="part-3">
+        <div id="lista_fondo">
+            <div class="ti">
+                <h2>Lista de pedido</h2>
+            </div>
+
+
+            <div class="Lista_precios">
+                <!-- 菜品价格 -->
+
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+    <script src="./js/boton.js"></script>
+
+
+</body>
+
+</html>

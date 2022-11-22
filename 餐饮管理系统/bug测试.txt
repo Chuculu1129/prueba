@@ -1,0 +1,13 @@
+// 第一次运行 
+
+ok-4 开头
+在mostrar——db函数中，datos.onsucecs 监视被跳过了
+有一条报错
+在case中执行完关于显示的代码块后，又跳回了onsucess
+执行完onsucess又跳回开始的ok-4 重新往下执行，但这时的数组长度已经从1（0），变成2（1）
+往下执行到最后，然后又跳回onsucess，再执行完一次代码停止运行
+
+// 第二次运行
+
+ok-4 开头
+运行时跳过onsucess，执行到最后，然后跳回onsucess ， 执行完oncuseess就终止了代码运行

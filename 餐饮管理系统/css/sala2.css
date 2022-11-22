@@ -1,0 +1,475 @@
+/* 最外层 */
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EBEDEF;
+    overflow: hidden;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 头部设计 *************************************/
+
+#cabezon{
+    display: flex;
+    justify-content: space-around;
+    background-color: #34495E;
+    align-items: center;
+    border-bottom: 7px solid #85929E ;
+}
+
+#cabezon h1{
+    color: #82E0AA ;
+}
+
+#cabezon h3{
+    color: #AEB6BF;
+}
+
+#cabezon button{
+
+    background-color:#AEB6BF ;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* 中部设计 ************************************************************/
+
+#cuerpaso{
+    display: flex;
+    height: 100%;
+    
+}
+
+/* 区块1 ------------------------------*/
+
+.part-1{
+    width: 10%;
+    
+    background-color: #D6DBDF;
+    border-right: 2px solid #AEB6BF ;
+
+    
+}
+
+/* 图片 */
+
+.xxx img{
+    /* logo */
+    width: 100%;
+}
+
+.xxx{
+    padding: 20px;
+}
+
+.inter-1 img{
+    width: 20%;
+    margin-right: 5px;
+}
+
+/* 按钮设计 */
+
+.inter-1 button{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+    border: 1px solid #AEB6BF;
+    background-color: #D6DBDF;
+    
+    
+}
+
+.inter-1 button:hover{
+
+    background-image: linear-gradient( to left, #2471A3,#A9CCE3);
+}
+
+/* 区块2 -------------------------------*/
+
+.part-2{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:flex-start ;
+    padding: 20px;
+    overflow: auto;
+    padding-bottom: 100px;
+    display: none;
+}
+
+/* 小方块 */
+.caja_name{
+   
+    height: 30%;
+}
+
+.caja_name h2{
+    margin: 0;
+    text-align: center;
+}
+
+/* 表格 */
+
+#part-2_1 table td{
+    border: 1px solid black;
+    padding: 5px;
+    
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    /* padding: 5px; */
+} 
+
+/* menu */
+#menu{
+    width: 250px;
+    height: 150px;
+    border: 8px solid #D6DBDF;
+    margin: 10px;
+    background-color: #D6DBDF;
+
+}
+
+#menu .img{
+    background-image: url(../img/menu.jpg);
+    background-size: cover;
+    
+    height: 70%;
+}
+
+/* sopa */
+#sopa{
+    width: 250px;
+    height: 150px;
+    border: 8px solid #D6DBDF;
+    margin: 10px;
+    background-color: #D6DBDF;
+}
+
+#sopa .img{
+    background-image: url(../img/sopa.jpg);
+    background-size: cover;
+    
+    height: 70%;
+}
+
+/* arroz */
+#arroz{
+    width: 250px;
+    height: 150px;
+    border: 8px solid #D6DBDF;
+    margin: 10px;
+    background-color: #D6DBDF;
+}
+
+#arroz .img{
+    background-image: url(../img/arroz.jpg);
+    background-size: cover;
+    
+    height: 70%;
+}
+
+/* tallarin */
+#tallarin{
+    width: 250px;
+    height: 150px;
+    border: 8px solid #D6DBDF;
+    margin: 10px;
+    background-color: #D6DBDF;
+}
+
+#tallarin .img{
+    background-image: url(../img/tallarin.jpg);
+    background-size:cover;
+    
+    height: 70%;
+}
+
+/* plato_especial */
+#plato_especial{
+    width: 250px;
+    height: 150px;
+    border: 8px solid #D6DBDF;
+    margin: 10px;
+    background-color: #D6DBDF;
+}
+
+#plato_especial .img{
+    background-image: url(../img/plato_especial.jpg);
+    background-size: cover;
+    
+    height: 70%;
+}
+
+/* pollo */
+#pollo{
+    width: 250px;
+    height: 150px;
+    border: 8px solid #D6DBDF;
+    margin: 10px;
+    background-color: #D6DBDF;
+}
+
+#pollo .img{
+    background-image: url(../img/pollo.jpg);
+    background-size: cover;
+    
+    height: 70%;
+}
+
+/* chancho */
+#chancho{
+    width: 250px;
+    height: 150px;
+    border: 8px solid #D6DBDF;
+    margin: 10px;
+    background-color: #D6DBDF;
+}
+
+#chancho .img{
+    background-image: url(../img/chancho.jpg);
+    background-size: cover;
+    
+    height: 70%;
+}
+
+/* langostino */
+#langostino{
+    width: 250px;
+    height: 150px;
+    border: 8px solid #D6DBDF;
+    margin: 10px;
+    background-color: #D6DBDF;
+}
+
+#langostino .img{
+    background-image: url(../img/langostino.jpg);
+    background-size: cover;
+    
+    height: 70%;
+}
+
+/* carne */
+#carne{
+    width: 250px;
+    height: 150px;
+    border: 8px solid #D6DBDF;
+    margin: 10px;
+    background-color: #D6DBDF;
+}
+
+#carne .img{
+    background-image: url(../img/carne.jpg);
+    background-size: cover;
+    
+    height: 70%;
+}
+
+/* combinado */
+#combinado{
+    width: 250px;
+    height: 150px;
+    border: 8px solid #D6DBDF;
+    margin: 10px;
+    background-color: #D6DBDF;
+}
+
+#combinado .img{
+    background-image: url(../img/combinado.jpg);
+    background-size: cover;
+    
+    height: 70%;
+}
+
+/* tortilla */
+#tortilla{
+    width: 250px;
+    height: 150px;
+    border: 8px solid #D6DBDF;
+    margin: 10px;
+    background-color: #D6DBDF;
+}
+
+#tortilla .img{
+    background-image: url(../img/tortilla.jpg);
+    background-size: cover;
+    
+    height: 70%;
+}
+
+/* combo */
+#combo{
+    width: 250px;
+    height: 150px;
+    border: 8px solid #D6DBDF;
+    margin: 10px;
+    background-color: #D6DBDF;
+}
+
+#combo .img{
+    background-image: url(../img/combo.jpg);
+    background-size: cover;
+    
+    height: 70%;
+}
+
+/* criollo */
+#criollo{
+    width: 250px;
+    height: 150px;
+    border: 8px solid #D6DBDF;
+    margin: 10px;
+    background-color: #D6DBDF;
+}
+
+#criollo .img{
+    background-image: url(../img/criollo.jpg);
+    background-size: cover;
+    
+    height: 70%;
+}
+
+/* bebidas */
+#bebidas{
+    width: 250px;
+    height: 150px;
+    border: 8px solid #D6DBDF;
+    margin: 10px;
+    background-color: #D6DBDF;
+}
+
+#bebidas .img{
+    background-image: url(../img/bebidas.jpg);
+    background-size: cover;
+    
+    height: 70%;
+}
+
+
+
+#menu:hover , #sopa:hover , #arroz:hover ,
+ #tallarin:hover  , #plato_especial:hover  ,
+  #pollo:hover , #chancho:hover , #langostino:hover ,
+   #carne:hover , #combinado:hover , #tortilla:hover  ,
+    #combo:hover , #criollo:hover  , #bebidas:hover{
+    border-top-color: #1ABC9C;
+    border-bottom-color: #1ABC9C;
+}
+
+/* 区块 2.2************************************************************ */
+#part-2_2{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:flex-start ;
+}
+
+.mesa{
+    display:flex ;
+    flex-direction: column;
+    background-color: #D4E6F1;
+    box-shadow: 5px 5px 5px #1B4F72;
+    width: 220px;
+    min-height: 250px;
+    margin: 10px; 
+    align-items: center;
+    
+}
+
+.mesa h2{
+    text-align: center;
+    color: #1ABC9C;
+    text-decoration: underline;
+}
+
+.mesa button{
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pedido_del_mesa{
+    padding: 8px;
+    overflow-y: auto;
+    height: 100px;
+}
+
+.mesa table td{
+    border:1px solid rgba(59, 59, 59, 0.097);
+    text-align: center;
+
+}
+
+
+
+
+
+
+/* 区块3 ----------------------*/
+
+.part-3{
+    width: 20%;
+    padding: 30px 5px 30px 5px;
+   
+
+}
+
+
+
+#part-33{
+    display: none;
+
+}
+
+/* 小方块 */
+
+#lista_fondo{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-image: url(../img/notas2.jpg);
+    border: 1px solid #EDBB99;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#boton_envio{
+    position : absolute;
+    bottom: 0;
+}
+
+#tab{
+    height: 400px;
+    overflow: auto;
+}
+
+#lista_fondo .numero {
+    width: 25px;
+}
+
+.ti{
+    border-bottom: 5px solid #F7DC6F;
+    padding: 10px;
+    background-color: #EDBB99;
+}
+
+.ti h2{
+    margin: 0;
+}
+
+td::selection {background: transparent}
+button::selection {background: transparent}
+h2::selection {background: transparent}

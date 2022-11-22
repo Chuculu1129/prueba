@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sala</title>
+    <link rel="stylesheet" href="./css/sala2.css"/>
+    <link rel="stylesheet" href="./css/salaMedia2.css"/>
+    
+</head>
+<body id="v" style="display: none;">
+    <!-- 头部设计 -->
+ 
+    <div id="cabezon">
+        
+        <h3>plataforma : Sala</h3>
+        <h1 id="TT">Chifa Fung Seng</h1>
+        <button onclick="cerrar_sesion()">cerrar sesion</button>
+    </div>
+
+    <!-- 中部设计 -->
+    <div id="cuerpaso">
+
+        <!-- 区块1 -->
+        <div class="part-1">
+            <div class="fondo1">
+
+                <div class="xxx">
+                    <img id="logo"  src="./img/logo.jpg"/>
+                </div>
+               
+                <div class="inter-1">
+                    <button onclick="carta()"><img src="./img/iconoMenu.pnj.png"/> Carta</button>
+                    <button onclick="mesa()"> <img src="./img/iconoMesa.pnj.png"/> mesa</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 区块2.1 -->
+        <div class="part-2" id="part-2_1">
+
+            <p id="valor" style="display: none;">1</p>
+            
+
+
+            <div id="menu">
+                <div class="caja_name">
+                    <h2 id="ti">Menu</h2>
+                </div>
+                <div class="img" id="menu_img">
+                    <table id="menu_tabla">
+                    </table>
+                </div>
+            </div>
+
+            <div id="sopa">
+                <div class="caja_name">
+                    <h2 id="tii">Sopa</h2>
+                </div>
+                <div class="img" id="sopa_img">
+                    <table id="sopa_tabla">
+                    </table>
+                </div>
+            </div>
+
+            <div id="arroz">
+                <div class="caja_name">
+                    <h2 class="encoger">Arroz</h2>
+                </div>
+                <div class="img"  id="arroz_img">
+                    <table id="arroz_tabla">                     
+                    </table>
+                </div>
+            </div>
+
+            <div id="tallarin">
+                <div class="caja_name">
+                    <h2>Tallarin</h2>
+                </div>
+                <div class="img" id="tallarin_img">
+                    <table id="tallarin_tabla">                     
+                    </table>
+                </div>
+            </div>
+
+            <div id="plato_especial">
+                <div class="caja_name">
+                    <h2>Plato especial</h2>
+                </div>
+                <div class="img" id="plato_especial_img">
+                    <table id="plato_especial_tabla">                     
+                    </table>
+                </div>
+            </div>
+
+            <div id="pollo">
+                <div class="caja_name">
+                    <h2>Pollo</h2>
+                </div>
+                <div class="img" id="pollo_img">
+                    <table id="pollo_tabla">                     
+                    </table>
+                </div>
+            </div>
+
+            <div id="chancho">
+                <div class="caja_name">
+                    <h2>Chancho</h2>
+                </div>
+                <div class="img" id="chancho_img">
+                    <table id="chancho_tabla">                     
+                    </table>
+                </div>
+            </div>
+
+            <div id="langostino">
+                <div class="caja_name">
+                    <h2>Langostino</h2>
+                </div>
+                <div class="img" id="langostino_img">
+                    <table id="langostino_tabla">                     
+                    </table>
+                </div>
+            </div>
+
+            <div id="carne">
+                <div class="caja_name">
+                    <h2>Carne de res</h2>
+                </div>
+                <div class="img" id="carne_img">
+                    <table id="carne_tabla">                     
+                    </table>
+                </div>
+            </div>
+
+            <div id="combinado">
+                <div class="caja_name">
+                    <h2>Combinado</h2>
+                </div>
+                <div class="img" id="combinado_img">
+                    <table id="combinado_tabla">                     
+                    </table>
+                </div>
+            </div>
+
+            <div id="tortilla">
+                <div class="caja_name">
+                    <h2>Tortilla</h2>
+                </div>
+                <div class="img" id="tortilla_img">
+                    <table id="tortilla_tabla">                     
+                    </table>
+                </div>
+            </div>
+
+            <div id="combo">
+                <div class="caja_name">
+                    <h2>Combo familiar</h2>
+                </div>
+                <div class="img" id="combo_img">
+                    <table id="combo_tabla">                     
+                    </table>
+                </div>
+            </div>
+
+            <div id="criollo">
+                <div class="caja_name">
+                    <h2>Criollo</h2>
+                </div>
+                <div class="img" id="criollo_img">
+                    <table id="criollo_tabla">                     
+                    </table>
+                </div>
+            </div>
+
+            <div id="bebidas">
+                <div class="caja_name">
+                    <h2>Bebidas</h2>
+                </div>
+                <div class="img" id="bebidas_img">
+                    <table id="bebidas_tabla">                     
+                    </table>
+                </div>
+            </div>
+
+            <!-- 在添加一个其他按钮，可以让客户自动填写一个餐名与价格，以后或许
+            会要出一些菜单里暂时还没有的 -->
+
+
+
+
+        </div>
+
+        <!-- 区域2.2 -->
+        <div id="part-2_2">
+            <!-- 桌子1 -->
+            <div class="mesa" style="display: none;">
+                <!-- 桌号 -->
+                <div class="num_mesa">
+                    <h2>Mesa 1</h2>
+                </div>
+                <!-- 点的餐 -->
+                <div class="pedido_del_mesa">
+                    <table>
+                        <tr>
+                            <td>1. chaufa de pollo</td>
+                            <td>S/. 13.00</td>
+                        </tr>
+                        <tr>
+                            <td>1 tallarin</td>
+                            <td>S/. 11.00</td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- 看总价格 -->
+                <button>total a pagar</button>
+
+            </div>
+        </div>
+        <!-- 区块3 -->
+        <div class="part-3" id="part-33">
+
+
+            <div id="lista_fondo">
+                <div class="ti">
+                    <h2>Lista de pedido</h2>
+                </div>
+                <div id="Lista_precios">
+                    <!-- 菜品价格 -->
+                    <div id="tab">
+                        <table id="pedido_tabla">                     
+                        </table>
+                    </div>
+                  
+                    <div id="boton_envio" style="display: none;">
+                        <p id="envio_alerta" style="display:none; color: red;"></p>
+                        <!-- 提示打包用盒子还是胶袋的选项 -->
+                        <div id="llevar_modo" style="display: none; ">
+                            <input type="checkbox" id="taper" onclick="taper()" />taper
+                            <input type="checkbox" id="bolsa" onclick="bolsa()" />bolsa
+                            <input type="number" id="otro" placeholder="Nro taper" onclick="otro()"/>
+                        </div>
+                  
+
+                        <!-- 提示该餐桌已经有餐，是否真的要添加的选项 -->
+                        <button id="btnAcept" onclick="aceptarDB()" style="display: none;" >SI</button>
+                        <button id="btnDeneg" onclick="denegarDB()" style="display: none;" >NO</button>
+                        <input type="number" id="taper_num" placeholder="nro de taper" style="display: none;" />
+                        <input type="number" placeholder="Nro mesa" id="mesa_number" onclick="comer_mesa()"/>
+                        <input type="checkbox"  id="llevar_option" onclick="llevar()"/>para llevar
+                        <button onclick="enviar()">Enviar</button>
+                    </div>
+            
+                </div>
+            </div>    
+        </div>
+
+    </div>
+
+    <script src="./js/platosDB.js"></script>
+    <script src="./js/sala.js"></script>
+    <script src="./js/botonS.js"></script>
+    <script src="./js/mostrar.js"></script>
+   
+
+
+</body>
+</html>

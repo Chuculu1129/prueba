@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caja</title>
+    <link rel="stylesheet" href="./css/sala2.css" />
+    <link rel="stylesheet" href="./css/salaMedia2.css" />
+    <link rel="stylesheet" href="./css/caja.css" />
+
+</head>
+
+<body id="f" style="display: none;">
+
+    <!-- 头部设计 -->
+
+    <div id="cabezon">
+
+        <h3>plataforma : Caja</h3>
+        <h1>Chifa Fung Seng</h1>
+        <div>
+            <button onclick="analizar_cerrar()">cerrar sesion</button>
+            <p id="alerta_cierre"></p>
+        </div>
+      
+    </div>
+
+    <!-- 中部设计 -->
+    <div id="cuerpaso">
+
+        <!-- 区块1 -->
+        <div class="part-1">
+            <div class="fondo1">
+
+                <div class="xxx">
+                    <img id="logo" src="./img/logo.jpg" />
+                </div>
+
+                <div class="inter-1">
+                    <button onclick="carta()"><img src="./img/iconoMenu.pnj.png" /> Carta</button>
+                    <button onclick="mesa()"> <img src="./img/iconoMesa.pnj.png" /> mesa</button>
+                    <button onclick="historial()"><img src="./img/iconoHistorial.png">Historial</button>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- 区块2.1 -->
+        <div class="part-2" id="part-2_1">
+
+            <p id="valor" style="display: none;">1</p>
+
+
+
+            <div id="menu">
+                <div class="caja_name">
+                    <h2 id="ti">Menu</h2>
+                </div>
+                <div class="img" id="menu_img">
+                    <table id="menu_tabla">
+                    </table>
+                </div>
+            </div>
+
+            <div id="sopa">
+                <div class="caja_name">
+                    <h2 id="tii">Sopa</h2>
+                </div>
+                <div class="img" id="sopa_img">
+                    <table id="sopa_tabla">
+                    </table>
+                </div>
+            </div>
+
+            <div id="arroz">
+                <div class="caja_name">
+                    <h2 class="encoger">Arroz</h2>
+                </div>
+                <div class="img" id="arroz_img">
+                    <table id="arroz_tabla">
+                    </table>
+                </div>
+            </div>
+
+            <div id="tallarin">
+                <div class="caja_name">
+                    <h2>Tallarin</h2>
+                </div>
+                <div class="img" id="tallarin_img">
+                    <table id="tallarin_tabla">
+                    </table>
+                </div>
+            </div>
+
+            <div id="plato_especial">
+                <div class="caja_name">
+                    <h2>Plato especial</h2>
+                </div>
+                <div class="img" id="plato_especial_img">
+                    <table id="plato_especial_tabla">
+                    </table>
+                </div>
+            </div>
+
+            <div id="pollo">
+                <div class="caja_name">
+                    <h2>Pollo</h2>
+                </div>
+                <div class="img" id="pollo_img">
+                    <table id="pollo_tabla">
+                    </table>
+                </div>
+            </div>
+
+            <div id="chancho">
+                <div class="caja_name">
+                    <h2>Chancho</h2>
+                </div>
+                <div class="img" id="chancho_img">
+                    <table id="chancho_tabla">
+                    </table>
+                </div>
+            </div>
+
+            <div id="langostino">
+                <div class="caja_name">
+                    <h2>Langostino</h2>
+                </div>
+                <div class="img" id="langostino_img">
+                    <table id="langostino_tabla">
+                    </table>
+                </div>
+            </div>
+
+            <div id="carne">
+                <div class="caja_name">
+                    <h2>Carne de res</h2>
+                </div>
+                <div class="img" id="carne_img">
+                    <table id="carne_tabla">
+                    </table>
+                </div>
+            </div>
+
+            <div id="combinado">
+                <div class="caja_name">
+                    <h2>Combinado</h2>
+                </div>
+                <div class="img" id="combinado_img">
+                    <table id="combinado_tabla">
+                    </table>
+                </div>
+            </div>
+
+            <div id="tortilla">
+                <div class="caja_name">
+                    <h2>Tortilla</h2>
+                </div>
+                <div class="img" id="tortilla_img">
+                    <table id="tortilla_tabla">
+                    </table>
+                </div>
+            </div>
+
+            <div id="combo">
+                <div class="caja_name">
+                    <h2>Combo familiar</h2>
+                </div>
+                <div class="img" id="combo_img">
+                    <table id="combo_tabla">
+                    </table>
+                </div>
+            </div>
+
+            <div id="criollo">
+                <div class="caja_name">
+                    <h2>Criollo</h2>
+                </div>
+                <div class="img" id="criollo_img">
+                    <table id="criollo_tabla">
+                    </table>
+                </div>
+            </div>
+
+            <div id="bebidas">
+                <div class="caja_name">
+                    <h2>Bebidas</h2>
+                </div>
+                <div class="img" id="bebidas_img">
+                    <table id="bebidas_tabla">
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- 区域2.2 -->
+        <div id="part-2_2">
+            <!-- 桌子1 -->
+
+        </div>
+
+        <!-- 区块2.3 -->
+        <div id="part-2_3">
+
+            <!-- 记录表 -->
+            <div id="tabla">
+                <!-- 日期 -->
+                <div class="tabla_fecha">
+                    <h2>Fecha :</h2>
+                    <p id="tabla_dia">martes</p>
+                    <p id="tabla_fecha">30/08/2022</p>
+                </div>
+                <!-- 表内容 -->
+                <div class="tabla_content">
+                    <table id="historial_tabla">
+                        <!-- <tr>
+                            <th>Hora</th>
+                            <th>Num pedido</th>
+                            <th>Monto pagado</th>
+                            <th>detalle</th>
+                        </tr> -->
+                        <!-- <div id="HT_inter">
+                            <!-- <tr>
+                            <td>9:20</td>
+                            <td>#000001</td>
+                            <td>S/. 12.00</td>
+                            <td><button>detalles</button></td>
+                        </tr> -->
+                    
+
+                    </table>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+
+        <!-- 区块3 -->
+        <div class="part-3" id="part-33">
+            <div id="lista_fondo">
+                <div class="ti">
+                    <h2>Lista de pedido</h2>
+                </div>
+
+
+                <div class="Lista_precios">
+                    <!-- 菜品价格 -->
+
+                    <!-- 菜品价格 -->
+                    <div id="tab">
+                        <table id="pedido_tabla">
+                        </table>
+                    </div>
+
+                    <div id="boton_envio" style="display: none;">
+                        <p id="envio_alerta" style="display:none; color: red;"></p>
+                        <!-- 提示打包用盒子还是胶袋的选项 -->
+                        <div id="llevar_modo" style="display: none; ">
+                            <input type="checkbox" id="taper" onclick="taper()" />taper
+                            <input type="checkbox" id="bolsa" onclick="bolsa()" />bolsa
+                            <input type="number" id="otro" placeholder="Nro taper" onclick="otro()" />
+                        </div>
+
+
+                        <!-- 提示该餐桌已经有餐，是否真的要添加的选项 -->
+                        <button id="btnAcept" onclick="aceptarDB()" style="display: none;">SI</button>
+                        <button id="btnDeneg" onclick="denegarDB()" style="display: none;">NO</button>
+                        <input type="number" id="taper_num" placeholder="nro de taper" style="display: none;" />
+                        <input type="number" placeholder="Nro mesa" id="mesa_number" onclick="comer_mesa()" />
+                        <input type="checkbox" id="llevar_option" onclick="llevar()" />para llevar
+                        <button onclick="enviar()">Enviar</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 支付弹窗 -->
+        <div id="cuadro_pago">
+
+            <div class="pago_cabeza">
+                <img id="regresar1" src="./img/iconoRegresar.png" />
+                <h2 id="cuadro_titulo">seleccionar el medio de pago</h2>
+                <img id="regresar2" src="./img/iconoRegresar.png" />
+
+            </div>
+
+
+
+            <div class="pago_cuerpo" id="cuadro_cuerpo">
+                <div class="p_part1">
+                    <h4>total apagar :</h4>
+                    <h5 id="precio_total"></h5>
+                </div>
+
+                <div class="p_inter">
+
+                    <div class="p_part2">
+                        <p>efectivo</p>
+                        <input id="pagoNum" type="number" placeholder="ingresa con cuanto cancela"
+                            onclick="efectivo()" />
+                        <p id="vuelto" style="color:red;"></p>
+                    </div>
+
+                    <div class="p_part21">
+                        <input id="tarjeta" type="checkbox" onclick="tarjeta()" />tarjeta
+                    </div>
+
+
+
+                    <div class="p_part3">
+                        <input id="otro_checkbox" onclick="otro()" type="checkbox" />otro
+                        <br />
+                        <div id="otro2" style="display: none;">
+                            <input id="yape_checkbox" onclick="yape()" type="checkbox" />Yape
+                            <input id="plin_checkbox" onclick="plin()" type="checkbox" />Plin
+                            <input onclick="mano_especi()" id="espc_pago" type="text"
+                                placeholder="Especifica el medio de pago" />
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <button onclick="pagar()">pagar</button>
+        </div>
+
+    </div>
+
+    </div>
+
+
+    <script src="./js/caja.js"></script>
+    <script src="./js/botonC.js"></script>
+    <script src="./js/mostrar.js"></script>
+
+
+
+</body>
+
+</html>

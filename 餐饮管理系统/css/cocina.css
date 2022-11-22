@@ -1,0 +1,57 @@
+#cuerpaso{
+    padding: 20px;
+}
+
+/* 单******************************* */
+
+.pedido{
+    
+    height: fit-content;
+    padding: 8px;
+    width: 250px;
+    overflow-wrap: break-word;
+    background-color: #D5D8DC;
+    box-shadow: 5px 5px 5px #5D6D7E;
+}
+
+.pedido_num{
+    text-align: center;
+    padding: 8px;
+    text-decoration: underline;
+    
+  
+}
+
+.pedido_num h2{
+    margin: 0;
+    color: #2E86C1;
+
+}
+
+
+.pedido_detalle p{
+    text-align: center;
+    margin: 0;
+    color: red;
+}
+
+.pedido_detalle{
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+/* 尾部按钮 */
+
+.pedido_boton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteo{
+    display: flex;
+}
+
+.pedido_boton button{
+    height: fit-content;
+}

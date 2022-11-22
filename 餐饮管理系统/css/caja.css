@@ -1,0 +1,111 @@
+
+/* 区块 2.2 */
+
+.botones{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.botones button{
+    margin: 5px;
+}
+
+/* 记录表******************************************************************* */
+#part-2_3{
+    width: 100%;
+    display: none;
+}
+
+#tabla{
+    background-color: #EBF5FB;
+    border: 3px solid #AED6F1;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.tabla_fecha{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid rgb(170, 170, 170);
+    margin-bottom: 10px;
+}
+
+.tabla_fecha h2 , p{
+    margin: 0;
+    margin-right: 10px;
+}
+
+.tabla_content table{
+    width: 100%;
+    margin: auto;
+}
+
+th{
+    border: 1px solid black;
+}
+
+/* td{
+    border: 1px solid black;
+    padding: 5px;
+    padding-left: 1%;
+
+    
+} */
+
+.colita{
+    width: 150px;
+}
+
+
+/* 支付弹窗*********************************** */
+
+#cuadro_pago{
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    background-color: #AED6F1;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 180px ;
+    width: 800px;
+    height: 400px;
+    border: 3px solid rgb(107, 208, 244);
+
+}
+
+#cuadro_pago h2{
+    text-align: center;
+    color: aquamarine;
+    text-shadow: 5px 5px 5px black;
+}
+
+.pago_cuerpo{
+    padding: 10px;
+}
+
+.p_part1 h5{
+    color: red;
+}
+
+.p_inter{
+    display: flex;
+    justify-content:space-around;
+}
+
+#cuadro_pago button{
+    width: 40%;
+    margin: auto;
+}
+
+.pago_cabeza img{
+    width: 10%;
+}
+
+.pago_cabeza {
+    display: flex;
+    justify-content: space-between;
+}

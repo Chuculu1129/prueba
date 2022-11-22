@@ -1,0 +1,162 @@
+/* <!--  区块2.0 ，欢迎页面 --> */
+#bievenida{
+    width: 90%;
+    display: block;
+}
+
+#bievenida img{
+    width: 100%;
+}
+
+/* 区块2.4 全记录*************************************************** */
+#part-2_4{
+    width: 90%;
+    display: none;
+}
+
+
+#registro_boton{
+    display: flex;   
+}
+
+/* 日月收入按钮 */
+
+.dia_name h2 , .mes_name h2{
+    margin: 0;
+    text-align: center;
+}
+
+.dia_name , .mes_name{
+    padding: 5px;
+}
+
+#dia  , #mes{
+    width: 250px;
+    height: 150px;
+    border: 8px solid #D6DBDF;
+    margin: 10px;
+    background-color: #D6DBDF;
+}
+
+.dia_img{
+    background-image: url(../img/estadistico.jpg);
+    background-size: cover;
+    
+    height: 70%;
+}
+
+.mes_img{
+    background-image: url(../img/estadistico2.jpg);
+    background-size: cover;
+    
+    height: 70%;
+}
+
+#dia:hover , #mes:hover{
+    border-top-color: #1ABC9C;
+    border-bottom-color: #1ABC9C;
+}
+
+/* 表----------------------------------------------------- */
+
+/* 头部 */
+#historial{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+    background-color: white;
+
+}
+
+.historial_cabeza{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#historial h3{
+    margin-left: 30px;
+    color: #E59866;
+}
+
+.historial_boton{
+    margin-right: 30px;
+   
+}
+
+.historial_boton button{
+    background-color: #F6DDCC;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.historial_boton button:hover{
+    border: 2px solid black;
+}
+
+/* 每一行记录 */
+
+.lineas{
+    width: 95%;
+    margin: auto;
+    border: 1px solid gray;
+    margin-top: 50px;
+}
+
+.linea{
+    display: flex;
+}
+
+.T-fecha , .T-ganancia , .T-detalles{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.fecha , .ganancia , .detalles{
+    flex-grow: 1;
+    text-align: center;
+    border-top: 1px solid #E5E8E8;
+    padding: 10px;
+}
+
+/* 区块2.5 小功能************************************************************************************ */
+
+/* 小功能按钮 */
+#part-2_5{
+    width: 90%;
+    display: none;
+}
+
+
+#funcion_boton{
+    display: flex;
+}
+
+#historial_ingreso_salida , #claves_config , #historial_gasto 
+, #ganancia_comparar , #notificacion{
+
+    width: 250px;
+    height: 150px;
+    border: 8px solid #D6DBDF;
+    margin: 10px;
+    background-color: #D6DBDF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+#historial_ingreso_salida:hover , #claves_config:hover , #historial_gasto:hover 
+, #ganancia_comparar:hover , #notificacion:hover{
+    box-shadow: 10px 10px 10px #1ABC9C;
+}
+
+#funcion_boton h2{
+    color: #c6a40c;
+}
+
+

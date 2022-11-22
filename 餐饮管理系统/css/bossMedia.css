@@ -1,0 +1,68 @@
+@media(max-width:1240px) {
+
+
+    #historial_ingreso_salida,
+    #claves_config,
+    #historial_gasto,
+    #ganancia_comparar,
+    #notificacion {
+
+        width: 200px;
+        height: 100px;
+    }
+
+}
+
+@media(max-width:990px) {
+
+
+    #historial_ingreso_salida,
+    #claves_config,
+    #historial_gasto,
+    #ganancia_comparar,
+    #notificacion {
+
+        width: 200px;
+        height: 80px;
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width:770px) {
+
+
+    #historial_ingreso_salida,
+    #claves_config,
+    #historial_gasto,
+    #ganancia_comparar,
+    #notificacion {
+
+        width: 160px;
+        height: 50px;
+        font-size: 12px;
+    }
+
+    #historial_ingreso_salida:hover,
+    #claves_config:hover,
+    #historial_gasto:hover,
+    #ganancia_comparar:hover,
+    #notificacion:hover {
+        box-shadow: 5px 5px 3px #1ABC9C;
+    }
+
+}
+
+@media(max-width:620px) {
+
+
+    #historial_ingreso_salida,
+    #claves_config,
+    #historial_gasto,
+    #ganancia_comparar,
+    #notificacion {
+
+        font-size: 8px;
+    }
+
+}
